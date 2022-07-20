@@ -17,6 +17,8 @@ header {
     background-color: #161616;
     width: 870px;
     border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .header1 {
@@ -43,4 +45,59 @@ header {
 
 .fa-greater-than {
     padding-left: 10px;
+}
+
+/* second part */
+/* left side */
+.left-side {
+    width: 312px;
+    height: 150px;
+}
+
+.part1 {
+    background-color: tomato;
+    /* tomato */
+    border: 1px solid black;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+
+.blog {
+    padding-right: 15px;
+}
+
+/* right-side style */
+body {
+    background-color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+}
+
+.box {
+    width: 992px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.blog-img {
+    width: 100%;
+}
+
+.blog-img2 {
+    width: 15px;
+    font-size: 15px;
 }
