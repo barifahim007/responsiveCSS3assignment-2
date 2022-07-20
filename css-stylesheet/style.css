@@ -101,3 +101,27 @@ body {
     width: 15px;
     font-size: 15px;
 }
+
+/* section 3  */
+.container3 {
+    color: #FFFFFF;
+    background-color: #161616;
+    height: 444px;
+    width: 1350px;
+    padding-top: 10px;
+    margin-top: 40px;
+}
+
+.goal {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.linebreaker {
+    width: 300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
